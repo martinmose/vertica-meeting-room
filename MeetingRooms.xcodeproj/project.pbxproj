@@ -7,18 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECAA308A27FCBAEE0017E693 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAA308927FCBAEE0017E693 /* Launch Screen.storyboard */; };
 		ECDA7CFB27EE59D2000776C8 /* MeetingRoomsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7CFA27EE59D2000776C8 /* MeetingRoomsApp.swift */; };
-		ECDA7CFD27EE59D2000776C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7CFC27EE59D2000776C8 /* ContentView.swift */; };
+		ECDA7CFD27EE59D2000776C8 /* MeetingRoomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7CFC27EE59D2000776C8 /* MeetingRoomScreen.swift */; };
 		ECDA7CFF27EE59D5000776C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDA7CFE27EE59D5000776C8 /* Assets.xcassets */; };
 		ECDA7D0227EE59D5000776C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDA7D0127EE59D5000776C8 /* Preview Assets.xcassets */; };
+		ECDA7D0927EE5A3D000776C8 /* MeetingRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D0827EE5A3D000776C8 /* MeetingRoom.swift */; };
+		ECDA7D0F27EE82BF000776C8 /* MeetingRoomScreen+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D0E27EE82BF000776C8 /* MeetingRoomScreen+ViewModel.swift */; };
+		ECDA7D1227EE8312000776C8 /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D1127EE8312000776C8 /* Floor.swift */; };
+		ECDA7D1427EE832D000776C8 /* FloorLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D1327EE832D000776C8 /* FloorLevel.swift */; };
+		ECDA7D1627EE8369000776C8 /* MeetingRoomName.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D1527EE8369000776C8 /* MeetingRoomName.swift */; };
+		ECDA7D1927EE838A000776C8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D1827EE838A000776C8 /* Constants.swift */; };
+		ECDA7D1C27EE8D27000776C8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D1B27EE8D27000776C8 /* NetworkManager.swift */; };
+		ECDA7D1E27EE8E5F000776C8 /* NetworkManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D1D27EE8E5F000776C8 /* NetworkManagerError.swift */; };
+		ECDA7D2027EE8EB8000776C8 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D1F27EE8EB8000776C8 /* Parameters.swift */; };
+		ECDA7D2227EE8ED5000776C8 /* InitialCaseRawValueInitializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D2127EE8ED5000776C8 /* InitialCaseRawValueInitializing.swift */; };
+		ECDA7D2427EE8EE3000776C8 /* DecodableWithDefaultUnknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D2327EE8EE3000776C8 /* DecodableWithDefaultUnknown.swift */; };
+		ECDA7D2627EE8EF5000776C8 /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D2527EE8EF5000776C8 /* Headers.swift */; };
+		ECDA7D2827EE8F1A000776C8 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D2727EE8F1A000776C8 /* HTTPMethod.swift */; };
+		ECDA7D2B27EE8FB2000776C8 /* URL+components.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D2A27EE8FB2000776C8 /* URL+components.swift */; };
+		ECDA7D2D27EE90BA000776C8 /* EmptyDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D2C27EE90BA000776C8 /* EmptyDTO.swift */; };
+		ECDA7D2F27EE9111000776C8 /* JSONDecoder+decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D2E27EE9111000776C8 /* JSONDecoder+decode.swift */; };
+		ECDA7D3127EE9161000776C8 /* JSONEncoder+encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D3027EE9161000776C8 /* JSONEncoder+encode.swift */; };
+		ECDA7D3527EE9A7C000776C8 /* MeetingRoomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D3427EE9A7C000776C8 /* MeetingRoomService.swift */; };
+		ECDA7D3727EE9BD3000776C8 /* FloorDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D3627EE9BD3000776C8 /* FloorDTO.swift */; };
+		ECDA7D3927EE9C1F000776C8 /* MeetingRoomDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D3827EE9C1F000776C8 /* MeetingRoomDTO.swift */; };
+		ECDA7D3E27F25107000776C8 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D3D27F25107000776C8 /* Networking.swift */; };
+		ECDA7D4027F25124000776C8 /* NetworkingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D3F27F25124000776C8 /* NetworkingMock.swift */; };
+		ECDA7D4227F258BD000776C8 /* Fake.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D4127F258BD000776C8 /* Fake.swift */; };
+		ECDA7D4527F264B1000776C8 /* View+pinchToZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D4427F264B1000776C8 /* View+pinchToZoom.swift */; };
+		ECDA7D4927F26528000776C8 /* MeetingRoomsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D4827F26528000776C8 /* MeetingRoomsImageView.swift */; };
+		ECDA7D4C27F265C9000776C8 /* MeetingRoomDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D4B27F265C9000776C8 /* MeetingRoomDetailScreen.swift */; };
+		ECDA7D4E27F2660F000776C8 /* MeetingRoomDetailScreen+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA7D4D27F2660F000776C8 /* MeetingRoomDetailScreen+ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ECAA308927FCBAEE0017E693 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		ECDA7CF727EE59D2000776C8 /* MeetingRooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingRooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDA7CFA27EE59D2000776C8 /* MeetingRoomsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomsApp.swift; sourceTree = "<group>"; };
-		ECDA7CFC27EE59D2000776C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECDA7CFC27EE59D2000776C8 /* MeetingRoomScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomScreen.swift; sourceTree = "<group>"; };
 		ECDA7CFE27EE59D5000776C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECDA7D0127EE59D5000776C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECDA7D0827EE5A3D000776C8 /* MeetingRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoom.swift; sourceTree = "<group>"; };
+		ECDA7D0E27EE82BF000776C8 /* MeetingRoomScreen+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeetingRoomScreen+ViewModel.swift"; sourceTree = "<group>"; };
+		ECDA7D1127EE8312000776C8 /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		ECDA7D1327EE832D000776C8 /* FloorLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorLevel.swift; sourceTree = "<group>"; };
+		ECDA7D1527EE8369000776C8 /* MeetingRoomName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomName.swift; sourceTree = "<group>"; };
+		ECDA7D1827EE838A000776C8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ECDA7D1B27EE8D27000776C8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		ECDA7D1D27EE8E5F000776C8 /* NetworkManagerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerError.swift; sourceTree = "<group>"; };
+		ECDA7D1F27EE8EB8000776C8 /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		ECDA7D2127EE8ED5000776C8 /* InitialCaseRawValueInitializing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCaseRawValueInitializing.swift; sourceTree = "<group>"; };
+		ECDA7D2327EE8EE3000776C8 /* DecodableWithDefaultUnknown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableWithDefaultUnknown.swift; sourceTree = "<group>"; };
+		ECDA7D2527EE8EF5000776C8 /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		ECDA7D2727EE8F1A000776C8 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		ECDA7D2A27EE8FB2000776C8 /* URL+components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+components.swift"; sourceTree = "<group>"; };
+		ECDA7D2C27EE90BA000776C8 /* EmptyDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDTO.swift; sourceTree = "<group>"; };
+		ECDA7D2E27EE9111000776C8 /* JSONDecoder+decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+decode.swift"; sourceTree = "<group>"; };
+		ECDA7D3027EE9161000776C8 /* JSONEncoder+encode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+encode.swift"; sourceTree = "<group>"; };
+		ECDA7D3427EE9A7C000776C8 /* MeetingRoomService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomService.swift; sourceTree = "<group>"; };
+		ECDA7D3627EE9BD3000776C8 /* FloorDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorDTO.swift; sourceTree = "<group>"; };
+		ECDA7D3827EE9C1F000776C8 /* MeetingRoomDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomDTO.swift; sourceTree = "<group>"; };
+		ECDA7D3D27F25107000776C8 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		ECDA7D3F27F25124000776C8 /* NetworkingMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingMock.swift; sourceTree = "<group>"; };
+		ECDA7D4127F258BD000776C8 /* Fake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fake.swift; sourceTree = "<group>"; };
+		ECDA7D4427F264B1000776C8 /* View+pinchToZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+pinchToZoom.swift"; sourceTree = "<group>"; };
+		ECDA7D4827F26528000776C8 /* MeetingRoomsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomsImageView.swift; sourceTree = "<group>"; };
+		ECDA7D4B27F265C9000776C8 /* MeetingRoomDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomDetailScreen.swift; sourceTree = "<group>"; };
+		ECDA7D4D27F2660F000776C8 /* MeetingRoomDetailScreen+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeetingRoomDetailScreen+ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				ECDA7CFA27EE59D2000776C8 /* MeetingRoomsApp.swift */,
-				ECDA7CFC27EE59D2000776C8 /* ContentView.swift */,
 				ECDA7CFE27EE59D5000776C8 /* Assets.xcassets */,
+				ECDA7D0B27EE81EF000776C8 /* Data */,
+				ECDA7D0C27EE81FC000776C8 /* Domain */,
+				ECDA7D0A27EE81D0000776C8 /* Presentation */,
 				ECDA7D0027EE59D5000776C8 /* Preview Content */,
+				ECDA7D3227EE99CC000776C8 /* Service */,
+				ECAA308927FCBAEE0017E693 /* Launch Screen.storyboard */,
 			);
 			path = MeetingRooms;
 			sourceTree = "<group>";
@@ -65,6 +125,142 @@
 				ECDA7D0127EE59D5000776C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECDA7D0A27EE81D0000776C8 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D4327F26499000776C8 /* Extensions */,
+				ECDA7D4627F264FE000776C8 /* Global */,
+				ECDA7D4727F26502000776C8 /* Screens */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		ECDA7D0B27EE81EF000776C8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D1827EE838A000776C8 /* Constants.swift */,
+				ECDA7D4127F258BD000776C8 /* Fake.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ECDA7D0C27EE81FC000776C8 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D1027EE8306000776C8 /* Model */,
+				ECDA7D1A27EE8D13000776C8 /* Network */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		ECDA7D0D27EE829D000776C8 /* MeetingRoom */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7CFC27EE59D2000776C8 /* MeetingRoomScreen.swift */,
+				ECDA7D0E27EE82BF000776C8 /* MeetingRoomScreen+ViewModel.swift */,
+			);
+			path = MeetingRoom;
+			sourceTree = "<group>";
+		};
+		ECDA7D1027EE8306000776C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D1127EE8312000776C8 /* Floor.swift */,
+				ECDA7D1327EE832D000776C8 /* FloorLevel.swift */,
+				ECDA7D0827EE5A3D000776C8 /* MeetingRoom.swift */,
+				ECDA7D1527EE8369000776C8 /* MeetingRoomName.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECDA7D1A27EE8D13000776C8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D2C27EE90BA000776C8 /* EmptyDTO.swift */,
+				ECDA7D2527EE8EF5000776C8 /* Headers.swift */,
+				ECDA7D2727EE8F1A000776C8 /* HTTPMethod.swift */,
+				ECDA7D3D27F25107000776C8 /* Networking.swift */,
+				ECDA7D3F27F25124000776C8 /* NetworkingMock.swift */,
+				ECDA7D1B27EE8D27000776C8 /* NetworkManager.swift */,
+				ECDA7D1D27EE8E5F000776C8 /* NetworkManagerError.swift */,
+				ECDA7D1F27EE8EB8000776C8 /* Parameters.swift */,
+				ECDA7D2927EE8F97000776C8 /* Extensions */,
+				ECDA7D3C27F25015000776C8 /* Helpers */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ECDA7D2927EE8F97000776C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D2E27EE9111000776C8 /* JSONDecoder+decode.swift */,
+				ECDA7D3027EE9161000776C8 /* JSONEncoder+encode.swift */,
+				ECDA7D2A27EE8FB2000776C8 /* URL+components.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECDA7D3227EE99CC000776C8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D3327EE99DE000776C8 /* MeetingRoom */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		ECDA7D3327EE99DE000776C8 /* MeetingRoom */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D3627EE9BD3000776C8 /* FloorDTO.swift */,
+				ECDA7D3827EE9C1F000776C8 /* MeetingRoomDTO.swift */,
+				ECDA7D3427EE9A7C000776C8 /* MeetingRoomService.swift */,
+			);
+			path = MeetingRoom;
+			sourceTree = "<group>";
+		};
+		ECDA7D3C27F25015000776C8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D2327EE8EE3000776C8 /* DecodableWithDefaultUnknown.swift */,
+				ECDA7D2127EE8ED5000776C8 /* InitialCaseRawValueInitializing.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ECDA7D4327F26499000776C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D4427F264B1000776C8 /* View+pinchToZoom.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECDA7D4627F264FE000776C8 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D4827F26528000776C8 /* MeetingRoomsImageView.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		ECDA7D4727F26502000776C8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D0D27EE829D000776C8 /* MeetingRoom */,
+				ECDA7D4A27F265A4000776C8 /* MeetingRoomDetail */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ECDA7D4A27F265A4000776C8 /* MeetingRoomDetail */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA7D4B27F265C9000776C8 /* MeetingRoomDetailScreen.swift */,
+				ECDA7D4D27F2660F000776C8 /* MeetingRoomDetailScreen+ViewModel.swift */,
+			);
+			path = MeetingRoomDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAA308A27FCBAEE0017E693 /* Launch Screen.storyboard in Resources */,
 				ECDA7D0227EE59D5000776C8 /* Preview Assets.xcassets in Resources */,
 				ECDA7CFF27EE59D5000776C8 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +334,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECDA7CFD27EE59D2000776C8 /* ContentView.swift in Sources */,
+				ECDA7D2227EE8ED5000776C8 /* InitialCaseRawValueInitializing.swift in Sources */,
+				ECDA7D4E27F2660F000776C8 /* MeetingRoomDetailScreen+ViewModel.swift in Sources */,
+				ECDA7D2427EE8EE3000776C8 /* DecodableWithDefaultUnknown.swift in Sources */,
+				ECDA7D2F27EE9111000776C8 /* JSONDecoder+decode.swift in Sources */,
+				ECDA7D2D27EE90BA000776C8 /* EmptyDTO.swift in Sources */,
+				ECDA7D3927EE9C1F000776C8 /* MeetingRoomDTO.swift in Sources */,
+				ECDA7D1C27EE8D27000776C8 /* NetworkManager.swift in Sources */,
+				ECDA7D4527F264B1000776C8 /* View+pinchToZoom.swift in Sources */,
+				ECDA7D2B27EE8FB2000776C8 /* URL+components.swift in Sources */,
+				ECDA7D3E27F25107000776C8 /* Networking.swift in Sources */,
+				ECDA7D1E27EE8E5F000776C8 /* NetworkManagerError.swift in Sources */,
+				ECDA7CFD27EE59D2000776C8 /* MeetingRoomScreen.swift in Sources */,
 				ECDA7CFB27EE59D2000776C8 /* MeetingRoomsApp.swift in Sources */,
+				ECDA7D2627EE8EF5000776C8 /* Headers.swift in Sources */,
+				ECDA7D4C27F265C9000776C8 /* MeetingRoomDetailScreen.swift in Sources */,
+				ECDA7D1227EE8312000776C8 /* Floor.swift in Sources */,
+				ECDA7D4927F26528000776C8 /* MeetingRoomsImageView.swift in Sources */,
+				ECDA7D2827EE8F1A000776C8 /* HTTPMethod.swift in Sources */,
+				ECDA7D3127EE9161000776C8 /* JSONEncoder+encode.swift in Sources */,
+				ECDA7D0927EE5A3D000776C8 /* MeetingRoom.swift in Sources */,
+				ECDA7D3727EE9BD3000776C8 /* FloorDTO.swift in Sources */,
+				ECDA7D4027F25124000776C8 /* NetworkingMock.swift in Sources */,
+				ECDA7D1627EE8369000776C8 /* MeetingRoomName.swift in Sources */,
+				ECDA7D0F27EE82BF000776C8 /* MeetingRoomScreen+ViewModel.swift in Sources */,
+				ECDA7D1427EE832D000776C8 /* FloorLevel.swift in Sources */,
+				ECDA7D4227F258BD000776C8 /* Fake.swift in Sources */,
+				ECDA7D1927EE838A000776C8 /* Constants.swift in Sources */,
+				ECDA7D3527EE9A7C000776C8 /* MeetingRoomService.swift in Sources */,
+				ECDA7D2027EE8EB8000776C8 /* Parameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -267,11 +491,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeetingRooms/Preview Content\"";
+				DEVELOPMENT_TEAM = QGARR49P23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -283,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,11 +522,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeetingRooms/Preview Content\"";
+				DEVELOPMENT_TEAM = QGARR49P23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,7 +541,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
