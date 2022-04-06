@@ -23,6 +23,6 @@ enum Fake {
         MeetingRoom(name: .quake, floor: .second),
         MeetingRoom(name: .hastyHardy, floor: .second),
         MeetingRoom(name: .pacman, floor: .second),
-        MeetingRoom(name: .warcraft, floor: .second),
+        MeetingRoom(name: .warcraft, floor: .second)
     ]
 }

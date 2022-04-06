@@ -109,11 +109,11 @@
 			children = (
 				ECDA7CFA27EE59D2000776C8 /* MeetingRoomsApp.swift */,
 				ECDA7CFE27EE59D5000776C8 /* Assets.xcassets */,
-				ECDA7D0B27EE81EF000776C8 /* Data */,
 				ECDA7D0C27EE81FC000776C8 /* Domain */,
+				ECDA7D0B27EE81EF000776C8 /* Data */,
+				ECDA7D3227EE99CC000776C8 /* Service */,
 				ECDA7D0A27EE81D0000776C8 /* Presentation */,
 				ECDA7D0027EE59D5000776C8 /* Preview Content */,
-				ECDA7D3227EE99CC000776C8 /* Service */,
 				ECAA308927FCBAEE0017E693 /* Launch Screen.storyboard */,
 			);
 			path = MeetingRooms;
